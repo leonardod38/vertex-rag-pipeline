@@ -1,0 +1,27 @@
+# Google Cloud
+google-cloud-storage>=2.14.0
+google-cloud-aiplatform>=1.51.0
+
+# Vector store
+pinecone-client>=3.2.0
+
+# LangChain (chunking only)
+langchain-text-splitters>=0.2.0
+
+# BM25
+rank-bm25>=0.2.2
+
+# API
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+
+# Utilities
+python-dotenv>=1.0.0
+tenacity>=8.3.0
+
+# Tests
+pytest>=8.2.0
+pytest-asyncio>=0.23.0
+httpx>=0.27.0
